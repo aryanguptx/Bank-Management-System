@@ -13,6 +13,7 @@ public class Accounts {
     private String account_number;
     private String pan_number;
     private String balance;
+    private String isfc_number;
     private LocalDateTime data_created;
 
 }
