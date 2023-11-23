@@ -1,12 +1,16 @@
 package com.pes.bankmanager.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Entity
-@NoArgsConstructor
+@Data
+@AllArgsConstructor
 public class Transactions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

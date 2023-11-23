@@ -1,8 +1,14 @@
 package com.pes.bankmanager.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @Entity
+@AllArgsConstructor
+@Data
 public class PaymentInstruments {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
